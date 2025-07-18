@@ -7,6 +7,7 @@ import com.ll.system.SystemController;
 public class App {
     ArticleController articleController;
     SystemController systemController;
+    Container container;
 
     App(){
         DBConnection.DB_NAME = "hjDB";
@@ -18,11 +19,10 @@ public class App {
         Container.getDBConnection().connect();
         articleController = new ArticleController();
         systemController = new SystemController();
+        container = new Container();
     }
     public void run(){
+
         System.out.println();
     }
-
-
-
 }

@@ -25,5 +25,8 @@ public class App {
     public void run(){
 
         String command = Container.getSc().nextLine().trim();
+        while(true) {
+            System.out.println("====CLI BOARD START====");
+        }
     }
 }

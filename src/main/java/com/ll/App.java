@@ -28,5 +28,7 @@ public class App {
         while(true) {
             System.out.println("====CLI BOARD START====");
         }
+
+        //작업1 !!!!!!!!!!!!!
     }
 }
